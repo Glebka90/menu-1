@@ -9,14 +9,7 @@ a {
 li {
   list-style-type: none;
 }
-/* .body {
-  width: 100%;
- height: 100%;
-}
-
-.header{
- width: 100%;
-} */
+.burger-menu_active .burger-menu__button,
 .burger-menu_active .burger-menu__line {
   background-color: transparent;
 }
@@ -38,6 +31,7 @@ li {
   z-index: 100;
   border-radius: 50%;
   background-color: #030303cf;
+  transition: 0.5s;
 }
 .burger-menu__button:hover .burger-menu__line {
   filter: brightness(0.7);
@@ -73,6 +67,7 @@ li {
   z-index: 90;
   overflow: auto;
   background-color: #030303cf;
+  transition: 0.5s;
 }
 .burger-menu_active .burger-menu__nav {
   left: 0;
